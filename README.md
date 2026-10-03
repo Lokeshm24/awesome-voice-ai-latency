@@ -8,6 +8,7 @@ Official full report and methodology: [https://voiceaibench.com](https://voiceai
 
 | Rank | Provider | Model | Median TTFB (ms) | Pricing / 1M chars | Real-time Streaming |
 |---|---|---|---|---|---|
+|  | Speechify | Simba 3.2 | 66ms | $10.00 | HTTP Chunked |
 | 1 | Cartesia | Sonic-3 | 85ms | $20.00 | WebSocket Native |
 | 2 | Deepgram | Aura-2 | 115ms | $15.00 | WebSocket Native |
 | 3 | ElevenLabs | Flash v2.5 | 135ms | $25.00 | WebSocket Native |
