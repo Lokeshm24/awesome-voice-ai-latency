@@ -206,6 +206,7 @@ def main():
         "Authorization": f"Bearer {key}",
         "Content-Type": "application/json",
         "Accept": ACCEPT,
+        "Speechify-Caller": "voice-ai-latency-bench",
         "Connection": "keep-alive",
     }
     conn = http.client.HTTPSConnection(HOST, 443, timeout=30, context=ssl.create_default_context())
